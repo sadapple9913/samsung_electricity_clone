@@ -44,9 +44,10 @@ font-size: 18px;color: #000;text-align: center;background: url(../images/ico_inq
 .step1>ul>li:last-child.on>a{background: #043285 url(../images/ico_inquiry_on_06.png)no-repeat 50% 35%;color: #fff;} */
 
 /* step2 */
-.step2> p{font-size: 16px;letter-spacing: -0.5px;margin-bottom: 20px;}
+.step2> p{font-size: 16px;letter-spacing: -0.6px;margin-bottom: 20px;}
 .step2>p.essentail{text-align: right;margin-bottom: 10px;}
-
+.step2>.form_desc{text-align: right;}
+.step2>.form_desc>span{color: #1a73b7;}
 .step2>form>fieldset>dl{border: 1px solid #333;padding: 50px 80px;background-color: #f3f3f3;}
 .step2>form dt{font-size: 20px;font-weight: 600;}
 .step2>form dt>label>span{padding-right:  5px;color: #1a73b7;font-size: 14px;}
@@ -57,10 +58,10 @@ font-size: 18px;color: #000;text-align: center;background: url(../images/ico_inq
 
 .step2>form .product select{width: 310px;}
 
-.step2>form dd.separate{border:1px solid #ccc;margin-bottom: 20px;}
+.step2>form .separate.user{display: flex; justify-content: space-between;}
 
-.step2>form dd.user{display: flex;justify-content: space-between;}
-.step2>form dd.user>dl input{width: 487;}
+
+
 
 .step2>form dd.phone input{margin-bottom: 10px;}
 .step2>form dd.phone input:first-of-type{width: 310px;margin-right: 14px;}
