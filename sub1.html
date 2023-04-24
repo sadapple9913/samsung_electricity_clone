@@ -75,10 +75,10 @@
       <legend class="blind">문의하기 입력항목</legend>
       <dl>
         <dt>
-          <label  id="type" for="type"><span>*</span> 구분</label>
+          <label for="type"><span>*</span> 구분</label>
         </dt>
         <dd>
-          <select  title="구분">
+          <select id="tpye"  title="구분">
             <option value>선택</option>
             <option value="sales">구입문의</option>
             <option value="sample">샘플요청</option>
@@ -88,10 +88,10 @@
         </dd>
 
         <dt>
-          <label id="productNo" for="productNo"><span>*</span> 제품</label>
+          <label for="productNo"><span>*</span> 제품</label>
         </dt>
-        <dd class="product">
-          <select name="product1" title="PRODUCT">
+        <dd id="productNo" class="product">
+          <select  name="product1" title="PRODUCT">
             <option value>PRODUCT</option>
             <option value="Passive Component">Passive Component</option>
             <option value="Automotive">Automotive</option>
@@ -142,14 +142,14 @@
 
 
           <dt class="name">
-            <label id="name" for="name"><span>*</span> 이름</label>
+            <label for="last_name"><span>*</span> 이름</label>
           </dt>
           <dd class="name">
             <input type="text" id="last_name" name="last_name" title="이름" value="">
           </dd>
 
           <dt class="name2">
-            <label for="name"><span>*</span> 성</label>
+            <label for="first_name"><span>*</span> 성</label>
           </dt>
           <dd class="name2">
             <input type="text" id="first_name" name="first_name" title="성" value="">
@@ -179,7 +179,7 @@
           <input type="email" id="email" name="email" title="이메일" value="">
         </dd>
 
-      <dt><label id="text" for="text"><span>*</span> 내용</label></dt>
+      <dt><label for="context"><span>*</span> 내용</label></dt>
         <dd>
           <textarea id="context"  title="내용" cols="30" rows="20"></textarea>
         </dd>
