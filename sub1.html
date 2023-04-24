@@ -75,7 +75,7 @@
       <legend class="blind">문의하기 입력항목</legend>
       <dl>
         <dt>
-          <label id="tpye" for="type"><span>*</span> 구분</label>
+          <label  id="type" for="type"><span>*</span> 구분</label>
         </dt>
         <dd>
           <select  title="구분">
@@ -87,9 +87,11 @@
           </select>
         </dd>
 
-        <dt><label for="productNo"><span>*</span> 제품</label></dt>
+        <dt>
+          <label id="productNo" for="productNo"><span>*</span> 제품</label>
+        </dt>
         <dd class="product">
-          <select  name="product1" title="PRODUCT">
+          <select name="product1" title="PRODUCT">
             <option value>PRODUCT</option>
             <option value="Passive Component">Passive Component</option>
             <option value="Automotive">Automotive</option>
@@ -140,7 +142,7 @@
 
 
           <dt class="name">
-            <label for="name"><span>*</span> 이름</label>
+            <label id="name" for="name"><span>*</span> 이름</label>
           </dt>
           <dd class="name">
             <input type="text" id="last_name" name="last_name" title="이름" value="">
@@ -177,7 +179,7 @@
           <input type="email" id="email" name="email" title="이메일" value="">
         </dd>
 
-      <dt><label for="text"><span>*</span> 내용</label></dt>
+      <dt><label id="text" for="text"><span>*</span> 내용</label></dt>
         <dd>
           <textarea id="context"  title="내용" cols="30" rows="20"></textarea>
         </dd>
@@ -185,8 +187,8 @@
       <dt>첨부파일</dt>
       <dd class="attach">
         <input type="text" value="파일선택" disabled title="첨부파일 선택">
-        <label for="attachflie">찾아보기</label>
-        <input type="file" id="attachfile">
+        <label>찾아보기</label>
+        <input type="file" id="attachflie" name="attachflie">
         <p>※ jpg,jpeg,gif,png,bmp,doc,docx,hwp,xls,xlsx,zip,pdf 형식만 지원<br>
           ※ 파일 사이즈 5MB까지 업로드 가능합니다.<br>
           ※ 파일 첨부 시 개인정보에 주의하시기 바랍니다.</p>
