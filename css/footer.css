@@ -52,13 +52,13 @@
 
 
 /* btn_top */
-a.btn_top{opacity: 0; position: fixed;bottom:30px;right: 80px;width: 60px;height: 60px;border: 1px solid #ccc;border-radius: 50%;
+.btn_top{ opacity: 0; position: fixed; bottom:30px;right: 80px;width: 60px;height: 60px;border: 1px solid #ccc;border-radius: 50%;
 background: #fff url(../images/top_btn_ico.png)no-repeat 50% 20%;
 font-size: 13px;color: #333;text-align: center;line-height: 80px;cursor: pointer;
 transition: all 0.5s ease 0s;}
-a.btn_top.on{opacity: 1; }
-a.btn_top.ab{position: absolute;bottom: auto;top: -100px;right: 80px;}
-a.btn_top::after{
+.btn_top.on{opacity: 1; }
+.btn_top.ab{ position: absolute;bottom: auto;top: -100px;right: 80px;}
+.btn_top::after{
   content: "";
   display: block;
   position: relative;
